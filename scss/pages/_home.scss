@@ -1,0 +1,31 @@
+.home{
+  &__block1{
+    background-size: contain;
+    background-position: bottom right;
+    background-color: #fafafa;
+    min-height: 100vh;
+    @include media-breakpoint-up('m'){
+      background-size: cover;
+      background-position: top right;
+      min-height: 751px;
+    }
+  }
+  &__block2{
+    background-color: rgb(250, 239, 209);
+    min-height: 100vh;
+    position: relative;
+    &__imgCover{
+      canvas{
+        width: 195px;
+        @include media-breakpoint-up('m'){
+          width: 337px;
+        }
+      }
+    }
+    &__cover1{
+      canvas{
+        @include fluidx(578px,278px,width);
+      }
+    }
+  }
+}
