@@ -5,7 +5,7 @@
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-2-5@m">
-                <img src="images/logo-20220325111935.png" alt="">
+                <img class="animate__animated" uk-scrollspy="cls: animate__flipInY; repeat: true" src="images/logo-20220325111935.png" alt="">
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@
 
 <div class="uk-position-relative home__block3">
     <div class="home__block3__bg uk-background-contain uk-background-norepeat uk-background-center-center uk-cover-container uk-position-top-right" data-src="images/artboard-42x-20210416035838-1.png" uk-img>
-        <canvas width="910" height="500"></canvas>
+        <canvas width="847" height="488"></canvas>
     </div>
     <div class="uk-section">
         <div class="uk-container uk-text-center">
