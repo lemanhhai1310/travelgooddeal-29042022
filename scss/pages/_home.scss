@@ -35,13 +35,13 @@
     &__txt1{
       color: rgb(11, 104, 230);
       @extend .fz-16;
-      font-family: $font-Roboto-Bold;
+      font-family: $font-OpenSans-Bold;
       line-height: 1.6;
     }
     &__txt2{
       color: rgb(0, 0, 0);
       @extend .fz-14;
-      font-family: $font-Roboto-Bold;
+      font-family: $font-OpenSans-Bold;
       line-height: 1.6;
     }
     &__btn{
@@ -55,8 +55,12 @@
       border-color: rgb(255, 153, 0);
       color: #ffffff;
       @extend .fz-14;
-      font-family: $font-Roboto-Bold;
+      font-family: $font-OpenSans-Bold;
       text-transform: inherit;
+      .home__booking &{
+        background: #0D61F2;
+        border-color: #0D61F2;
+      }
     }
     &__box{
       &:before{
@@ -73,6 +77,42 @@
     }
     &__box1{
       border-radius: 50px;
+    }
+  }
+  &__booking{
+    &__addressName{
+      @extend .fz-16;
+      font-family: $font-OpenSans-Bold;
+      color: rgb(0, 0, 0);
+      top: 14%;
+      @include media-breakpoint-up('m'){
+        top: 17.5%;
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 15px;
+      }
+    }
+    &__title{
+      margin: 0;
+      font-family: $font-OpenSans-Bold;
+      color: rgb(0, 0, 0);
+      @extend .fz-14;
+      margin-top: -30px;
+      @include media-breakpoint-up('m'){
+        margin-top: -40px;
+      }
+    }
+    &__price{
+      @extend .fz-14;
+      &--old{
+        color: rgb(0, 0, 0);
+      }
+      &--new{
+        color: rgb(232, 58, 48);
+        font-family: $font-OpenSans-Bold;
+      }
     }
   }
 }

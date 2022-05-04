@@ -10,6 +10,7 @@
         </div>
     </div>
 </div>
+<!--Top Deal-->
 <div class="home__block2 uk-flex uk-flex-middle">
     <div class="home__block2__imgCover uk-cover-container uk-position-top-right">
         <img src="images/artboard-42x-20210416035838.png" alt="" uk-cover="">
@@ -101,4 +102,53 @@
         </div>
     </div>
 </div>
+<!--/Top Deal-->
+
+<!--Booking Hotel-->
+<div class="uk-height-viewport home__booking uk-flex uk-flex-middle uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/blockve2-20210416074833.png" uk-img>
+    <div class="uk-section-small uk-width-1-1">
+        <div class="uk-container uk-container-small">
+            <div class="uk-margin uk-text-center">
+                <div class="uk-cover-container uk-flex-inline" style="max-width: 388px">
+                    <img src="images/hotel-20220323071143.png" alt="" uk-cover="">
+                    <canvas width="848" height="600"></canvas>
+                </div>
+            </div>
+            <div class="uk-margin">
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                    <?php for ($i=1;$i<=6;$i++): ?>
+                    <div>
+                        <div class="home__booking__item uk-cover-container uk-background-contain" data-src="images/artboard-12-20210415031320.png" uk-img>
+                            <canvas width="514" height="500"></canvas>
+                            <div class="uk-cover-container uk-position-center" style="width: 62%">
+                                <img src="images/screenshot_128-20220412070259.jpeg" alt="" uk-cover="">
+                                <canvas width="499" height="300"></canvas>
+                            </div>
+                            <div class="uk-position-top-center home__booking__addressName">Nha Trang</div>
+                        </div>
+                        <div class="home__booking__item uk-text-center">
+                            <h4 class="home__booking__title uk-h4">An Lam Retreats Ninh Van Bay - 3N2Đ</h4>
+                            <div class="uk-child-width-auto uk-flex-center uk-flex-bottom uk-grid-small" uk-grid>
+                                <div>
+                                    <del class="home__booking__price home__booking__price--old">24.061.070</del>
+                                </div>
+                                <div>
+                                    <div class="home__booking__price home__booking__price--new">9.855.900</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__booking__item uk-text-center">
+                            <a href="" class="uk-button home__block2__btn uk-button-default uk-button-small uk-border-pill">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <?php endfor; ?>
+                </div>
+            </div>
+            <div class="uk-margin-medium-top uk-text-center">
+                <a href="" class="home__block2__btnMore uk-button uk-button-default uk-border-rounded">Xem thêm Deal</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Booking Hotel-->
 <?php require "template-parts/layouts/footer.php"; ?>
