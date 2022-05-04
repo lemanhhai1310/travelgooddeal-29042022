@@ -57,9 +57,15 @@
       @extend .fz-14;
       font-family: $font-OpenSans-Bold;
       text-transform: inherit;
+      .home__tour &,
       .home__booking &{
         background: #0D61F2;
         border-color: #0D61F2;
+        &:hover{
+          color: #0D61F2;
+          background: transparent;
+          border-color: #000;
+        }
       }
     }
     &__box{
@@ -77,6 +83,48 @@
     }
     &__box1{
       border-radius: 50px;
+    }
+  }
+  &__tour{
+    &__section{
+      @include media-breakpoint-down('s'){
+        padding-bottom: 297px;
+      }
+    }
+    &__bg1{
+      @include fluidx(435px,180px,max-width);
+    }
+    &__bg2{
+      @include fluidx(128px,66px,max-width);
+    }
+    &__box1{
+      border-radius: 24px;
+      position: relative;
+      z-index: 2;
+    }
+    &__box2{
+      margin-top: -15px;
+    }
+    &__box3{
+      border-radius: 10px;
+    }
+    &__name{
+      color: rgb(255, 255, 255);
+      @extend .fz-16;
+      font-family: $font-OpenSans-Bold;
+    }
+    &__title{
+      margin: 0;
+      font-family: $font-OpenSans-Bold;
+      color: rgb(0, 0, 0);
+      @extend .fz-14;
+    }
+    &__price{
+      color: rgb(232, 58, 48);
+      @extend .fz-14;
+      b{
+        font-family: $font-OpenSans-Bold;
+      }
     }
   }
   &__booking{

@@ -151,4 +151,67 @@
     </div>
 </div>
 <!--/Booking Hotel-->
+
+<!--Tour-->
+<div class="uk-height-viewport home__tour uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center uk-flex uk-flex-middle" data-src="images/istockphoto-1236656435-612x612-20220329045315.jpeg" uk-img>
+    <div class="uk-section-small uk-width-1-1 home__tour__section">
+        <div class="uk-container uk-container-small">
+            <div class="uk-margin-medium">
+                <div class="uk-grid-collapse uk-child-width-auto uk-flex-middle uk-flex-center" uk-grid>
+                    <div>
+                        <div class="uk-cover-container home__tour__bg1">
+                            <img src="images/tour-20220323071953.png" alt="" uk-cover="">
+                            <canvas width="848" height="600"></canvas>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-cover-container home__tour__bg2">
+                            <img src="images/009-tour-guide-1-20210414030702.png" alt="" uk-cover="">
+                            <canvas width="128" height="128"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-margin-medium">
+                <div class="uk-child-width-1-3@m uk-child-width-1-2 uk-grid-small uk-grid-30-m uk-grid-row-medium" uk-grid>
+                    <?php for ($i=1;$i<=6;$i++): ?>
+                    <div>
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="uk-cover-container uk-border-rounded home__tour__box1">
+                                    <img src="https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/logo_vietravel_498380100-20220414105722.png" alt="" uk-cover="">
+                                    <canvas width="72" height="72"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="home__tour__name">Singapore</div>
+                            </div>
+                        </div>
+                        <div class="home__tour__box2">
+                            <div class="uk-text-center home__booking__item">
+                                <div class="uk-cover-container uk-border-rounded uk-flex-inline home__tour__box3">
+                                    <img src="https://w.ladicdn.com/s550x500/5b1a076f9066d950710a3d7f/screenshot_151-20220412092649.jpg" alt="" uk-cover="">
+                                    <canvas width="204" height="174"></canvas>
+                                </div>
+                            </div>
+                            <div class="home__booking__item uk-text-center">
+                                <h4 class="home__tour__title uk-h4">Tour Singapore 03 ngày 02 đêm</h4>
+                                <div class="home__tour__price">chỉ từ <b>9.855.900</b></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endfor; ?>
+                </div>
+            </div>
+            <div class="uk-margin-medium-top uk-text-center">
+                <a href="" class="home__block2__btnMore uk-button uk-button-default uk-border-rounded">Xem thêm Deal</a>
+            </div>
+        </div>
+    </div>
+    <div class="uk-cover-container uk-position-bottom-right" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <img src="images/artboard-132x-20210416083011.png" alt="" uk-cover="">
+        <canvas width="200" height="297"></canvas>
+    </div>
+</div>
+<!--/Tour-->
 <?php require "template-parts/layouts/footer.php"; ?>
