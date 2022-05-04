@@ -104,6 +104,22 @@
 </div>
 <!--/Top Deal-->
 
+<div class="uk-position-relative home__block3">
+    <div class="home__block3__bg uk-background-contain uk-background-norepeat uk-background-center-center uk-cover-container uk-position-top-right" data-src="images/artboard-42x-20210416035838-1.png" uk-img>
+        <canvas width="910" height="500"></canvas>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container uk-text-center">
+            <img src="images/img1.png" alt="">
+        </div>
+    </div>
+    <div class="uk-flex uk-flex-bottom uk-flex-center">
+        <div style="max-width: 1275px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/artboard-1-20210414101310.png" uk-img>
+            <canvas width="1920" height="240"></canvas>
+        </div>
+    </div>
+</div>
+
 <!--Booking Hotel-->
 <div class="uk-height-viewport home__booking uk-flex uk-flex-middle uk-background-norepeat uk-background-center-center uk-background-cover" data-src="images/blockve2-20210416074833.png" uk-img>
     <div class="uk-section-small uk-width-1-1">
