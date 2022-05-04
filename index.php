@@ -188,13 +188,13 @@
                             </div>
                         </div>
                         <div class="home__tour__box2">
-                            <div class="uk-text-center home__booking__item">
+                            <div class="uk-text-center home__tour__item">
                                 <div class="uk-cover-container uk-border-rounded uk-flex-inline home__tour__box3">
                                     <img src="https://w.ladicdn.com/s550x500/5b1a076f9066d950710a3d7f/screenshot_151-20220412092649.jpg" alt="" uk-cover="">
                                     <canvas width="204" height="174"></canvas>
                                 </div>
                             </div>
-                            <div class="home__booking__item uk-text-center">
+                            <div class="home__tour__item uk-text-center">
                                 <h4 class="home__tour__title uk-h4">Tour Singapore 03 ngày 02 đêm</h4>
                                 <div class="home__tour__price">chỉ từ <b>9.855.900</b></div>
                             </div>
