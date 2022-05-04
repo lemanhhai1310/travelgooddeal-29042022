@@ -399,14 +399,49 @@
 
 <!--Combo-->
 <div class="uk-section home__combo">
-    <div class="uk-container">
+    <div class="uk-container uk-container-small">
         <div class="uk-margin-medium uk-text-center">
             <div style="max-width: 515px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/combo-20220323073946.png" uk-img>
                 <canvas width="848" height="435"></canvas>
             </div>
         </div>
         <div class="uk-margin-medium">
-
+            <div class="uk-child-width-1-3@m uk-child-width-1-2 uk-grid-small uk-grid-30-m uk-grid-row-medium" uk-grid>
+                <?php for ($i=1;$i<=3;$i++): ?>
+                    <div>
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="uk-cover-container uk-border-rounded home__tour__box1">
+                                    <img src="https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/logo_vietravel_498380100-20220414105722.png" alt="" uk-cover="">
+                                    <canvas width="72" height="72"></canvas>
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="home__tour__name" style="color: rgb(11, 104, 230);">Singapore</div>
+                            </div>
+                        </div>
+                        <div class="home__tour__box2">
+                            <div class="uk-text-center home__tour__item">
+                                <div class="uk-cover-container uk-border-rounded uk-flex-inline home__tour__box3">
+                                    <img src="https://w.ladicdn.com/s550x500/5b1a076f9066d950710a3d7f/screenshot_151-20220412092649.jpg" alt="" uk-cover="">
+                                    <canvas width="204" height="174"></canvas>
+                                </div>
+                            </div>
+                            <div class="home__tour__item uk-text-center">
+                                <h4 class="home__tour__title uk-h4">Tour Singapore 03 ngày 02 đêm</h4>
+                                <div class="uk-child-width-auto uk-flex-center uk-grid-10" uk-grid>
+                                    <div>
+                                        <del class="home__vethamquan__price1">1,500,000</del>
+                                    </div>
+                                    <div>
+                                        <span class="home__vethamquan__price2">994,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endfor; ?>
+            </div>
         </div>
         <div class="uk-margin-medium-top uk-text-center">
             <a href="" class="home__block2__btnMore uk-button uk-button-default uk-border-rounded">Xem thêm Deal</a>
