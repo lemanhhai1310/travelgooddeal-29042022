@@ -214,4 +214,87 @@
     </div>
 </div>
 <!--/Tour-->
+
+<!--Vemaybay-->
+<div class="uk-background-cover home__vemaybay uk-background-norepeat uk-background-center-center uk-flex uk-flex-middle" data-src="images/abstract-color-pastel-background-a-soft-sky-with-cloud-background-in-pastel-color_6529-2-20210121073755.jpeg" uk-img>
+    <div class="uk-section uk-width-1-1">
+        <div class="uk-container uk-container-small">
+            <div class="uk-margin uk-text-center">
+                <div class="uk-cover-container uk-flex-inline" style="max-width: 666px">
+                    <img src="images/artboard-122x-20210416075613.png" alt="" uk-cover="">
+                    <canvas width="1546" height="600"></canvas>
+                </div>
+            </div>
+            <div class="uk-margin-top">
+                <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'Hà Nội - Phú Quốc',
+                            'price1' => '500,000',
+                            'price2' => '199,000',
+                        ),
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'Hà Nội - Huế',
+                            'price1' => '400,000',
+                            'price2' => '9,000',
+                        ),
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'Hà Nội - Đà Nẵng',
+                            'price1' => '450,000',
+                            'price2' => '49,000',
+                        ),
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'HCM - Phú Quốc',
+                            'price1' => '200,000',
+                            'price2' => '9,000',
+                        ),
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'HCM - Nha Trang',
+                            'price1' => '450,000',
+                            'price2' => '49,000',
+                        ),
+                        array(
+                            'src' => 'https://w.ladicdn.com/s400x400/5b1a076f9066d950710a3d7f/rbg/download-20220414103842.png',
+                            'title' => 'HCM - Huế',
+                            'price1' => '500,000',
+                            'price2' => '49,000',
+                        ),
+                    );
+                    foreach ($data as $k=>$v): ?>
+                    <div>
+                        <div class="uk-text-center uk-position-relative uk-position-z-index">
+                            <div style="background-size: 75%" class="uk-cover-container uk-flex-inline uk-border-circle uk-background-norepeat uk-background-contain uk-background-center-center uk-background-default" data-src="<?= $v['src'] ?>" uk-img>
+                                <canvas width="86" height="86"></canvas>
+                            </div>
+                        </div>
+                        <div class="home__vemaybay__box1 uk-cover-container uk-background-norepeat uk-background-center-center uk-background-contain" data-src="images/pf-icon-3005-chim-removebg-preview-20220329025106.png" uk-img>
+                            <canvas width="624" height="262"></canvas>
+                            <div class="uk-position-cover uk-padding-small home__vemaybay__box2">
+                                <div class="home__vemaybay__title"><?= $v['title'] ?></div>
+                                <div class="home__vemaybay__title">Bamboo Airways</div>
+                                <div class="uk-child-width-auto uk-grid-small" uk-grid>
+                                    <div>
+                                        <del class="home__vemaybay__price1"><?= $v['price1'] ?></del>
+                                    </div>
+                                    <div>
+                                        <div class="home__vemaybay__price2"><?= $v['price2'] ?></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="uk-position-cover"></a>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Vemaybay-->
 <?php require "template-parts/layouts/footer.php"; ?>

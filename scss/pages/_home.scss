@@ -85,6 +85,28 @@
       border-radius: 50px;
     }
   }
+  &__vemaybay{
+    &__box1{
+      margin-top: -35px;
+    }
+    &__box2{
+      padding-top: 10%;
+    }
+    &__title{
+      color: rgb(0, 0, 0);
+      @extend .fz-16;
+      font-family: $font-OpenSans-Bold;
+    }
+    &__price1{
+      color: rgb(0, 0, 0);
+      @extend .fz-16;
+    }
+    &__price2{
+      @extend .fz-16;
+      color: rgb(232, 58, 48);
+      font-family: $font-OpenSans-Bold;
+    }
+  }
   &__tour{
     &__section{
       @include media-breakpoint-down('s'){
