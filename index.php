@@ -5,7 +5,7 @@
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-2-5@m">
-                <img class="animate__animated" uk-scrollspy="cls: animate__flipInY; repeat: true" src="images/logo-20220325111935.png" alt="">
+                <img class="animate__animated" uk-scrollspy="cls: animate__flipInY; repeat: false" src="images/logo-20220325111935.png" alt="">
             </div>
         </div>
     </div>
@@ -224,7 +224,7 @@
             </div>
         </div>
     </div>
-    <div class="uk-cover-container uk-position-bottom-right" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+    <div class="uk-cover-container uk-position-bottom-right" uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
         <img src="images/artboard-132x-20210416083011.png" alt="" uk-cover="">
         <canvas width="200" height="297"></canvas>
     </div>
@@ -313,4 +313,89 @@
     </div>
 </div>
 <!--/Vemaybay-->
+
+<!--Vethamquan-->
+<div class="uk-height-viewport home__vethamquan uk-flex uk-flex-middle uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/blockve2-2-20220408075234.jpeg" uk-img>
+    <div class="uk-section uk-width-1-1">
+        <div class="uk-container uk-container-small">
+            <div class="uk-margin-medium uk-text-center">
+                <div style="max-width: 515px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/ticket-20220323073705.png" uk-img>
+                    <canvas width="848" height="600"></canvas>
+                </div>
+            </div>
+            <div class="uk-margin-medium">
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                    <?php for ($i=1;$i<=6;$i++): ?>
+                    <div>
+                        <div class="home__tour__item uk-text-center">
+                            <div class="uk-cover-container uk-border-rounded uk-flex-inline">
+                                <img src="https://w.ladicdn.com/s550x500/5b1a076f9066d950710a3d7f/screenshot_155-20220412101342.jpg" alt="" uk-cover="">
+                                <canvas width="200" height="164"></canvas>
+                            </div>
+                        </div>
+                        <div class="home__tour__item">
+                            <div class="item__5 uk-text-center">
+                                <div class="home__vethamquan__txt1">Đà Nẵng</div>
+                            </div>
+                            <div class="item__5 uk-text-center">
+                                <div class="home__vethamquan__txt2">Combo Vé Sun World Bà Nà Hills</div>
+                            </div>
+                            <div class="item__5">
+                                <div class="uk-child-width-auto uk-flex-center uk-grid-10" uk-grid>
+                                    <div>
+                                        <del class="home__vethamquan__price1">1,500,000</del>
+                                    </div>
+                                    <div>
+                                        <span class="home__vethamquan__price2">994,000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__tour__item uk-text-center">
+                            <a href="" class="uk-button home__block2__btn uk-button-default uk-button-small uk-border-pill">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <?php endfor; ?>
+                </div>
+            </div>
+            <div class="uk-margin-medium-top uk-text-center">
+                <a href="" class="home__block2__btnMore uk-button uk-button-default uk-border-rounded">Xem thêm Deal</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Vethamquan-->
+
+<!--Thuexe-->
+<div class="uk-section home__thuexe">
+    <div class="uk-container">
+        <div class="uk-margin-medium uk-text-center">
+            <div style="max-width: 460px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/car-20220323072302.png" uk-img>
+                <canvas width="848" height="600"></canvas>
+            </div>
+        </div>
+        <div class="uk-margin-medium-top">
+
+        </div>
+    </div>
+</div>
+<!--/Thuexe-->
+
+<!--Combo-->
+<div class="uk-section home__combo">
+    <div class="uk-container">
+        <div class="uk-margin-medium uk-text-center">
+            <div style="max-width: 515px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/combo-20220323073946.png" uk-img>
+                <canvas width="848" height="435"></canvas>
+            </div>
+        </div>
+        <div class="uk-margin-medium">
+
+        </div>
+        <div class="uk-margin-medium-top uk-text-center">
+            <a href="" class="home__block2__btnMore uk-button uk-button-default uk-border-rounded">Xem thêm Deal</a>
+        </div>
+    </div>
+</div>
+<!--/Combo-->
 <?php require "template-parts/layouts/footer.php"; ?>

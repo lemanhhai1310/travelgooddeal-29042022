@@ -83,4 +83,10 @@
       margin-top: #{$x}px;
     }
   }
+  $x:5;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
 }

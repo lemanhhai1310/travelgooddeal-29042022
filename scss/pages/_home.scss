@@ -86,8 +86,35 @@
     }
   }
   &__block3{
+    background-color: rgb(255, 255, 255);
     &__bg{
       @include fluidx(318px,89px,max-width);
+    }
+  }
+  &__combo{
+    background-color: rgba(255, 154, 1, 0.1);
+  }
+  &__thuexe{
+    background: linear-gradient(180deg, rgba(250, 239, 209, 1), rgba(209, 250, 215, 1));
+  }
+  &__vethamquan{
+    &__txt1{
+      @extend .fz-16;
+      font-family: $font-OpenSans-Bold;
+      color: #ffffff;
+    }
+    &__txt2{
+      @extend .fz-14;
+      color: #ffffff;
+    }
+    &__price1{
+      @extend .fz-14;
+      color: #000;
+    }
+    &__price2{
+      @extend .fz-14;
+      font-family: $font-OpenSans-Bold;
+      color: rgb(232, 58, 48);
     }
   }
   &__vemaybay{
