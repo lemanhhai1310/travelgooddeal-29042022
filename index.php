@@ -368,14 +368,30 @@
 
 <!--Thuexe-->
 <div class="uk-section home__thuexe">
-    <div class="uk-container">
+    <div class="uk-container uk-container-small">
         <div class="uk-margin-medium uk-text-center">
             <div style="max-width: 460px" class="uk-cover-container uk-flex-inline uk-background-contain uk-background-norepeat uk-background-center-center" data-src="images/car-20220323072302.png" uk-img>
                 <canvas width="848" height="600"></canvas>
             </div>
         </div>
         <div class="uk-margin-medium-top">
-
+            <div class="uk-child-width-1-3@m" uk-grid>
+                <?php for ($i=1;$i<=3;$i++): ?>
+                <div>
+                    <div class="uk-position-relative">
+                        <div class="uk-cover-container uk-background-norepeat uk-background-center-center uk-background-contain" data-src="images/school-bus-icon-vector-13465248-removebg-preview-removebg-preview-20220329043758.png" uk-img>
+                            <canvas width="476" height="500"></canvas>
+                            <span class="uk-position-center home__thuexe__txt1 home__thuexe__txt1--c1">Đà Nẵng</span>
+                        </div>
+                        <div class="uk-position-top-center home__thuexe__box1 uk-cover-container uk-flex-inline uk-border-circle uk-background-norepeat uk-background-contain uk-background-center-center" data-src="images/download-1-20220414105036.png" uk-img>
+                            <canvas width="80" height="80"></canvas>
+                        </div>
+                    </div>
+                    <div class="home__thuexe__txt1">Giảm 15% khi thuê xe tự lái tại Đà Nẵng</div>
+                    <div class="uk-text-center home__thuexe__txt2">Giảm 15%</div>
+                </div>
+                <?php endfor; ?>
+            </div>
         </div>
     </div>
 </div>

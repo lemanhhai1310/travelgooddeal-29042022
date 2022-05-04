@@ -96,6 +96,25 @@
   }
   &__thuexe{
     background: linear-gradient(180deg, rgba(250, 239, 209, 1), rgba(209, 250, 215, 1));
+    &__txt1{
+      color: #000;
+      @extend .fz-16;
+      font-family: $font-OpenSans-Bold;
+      &--c1{
+        margin-top: -18%;
+      }
+    }
+    &__txt2{
+      @extend .home__thuexe__txt1;
+      color: rgb(232, 58, 48);
+    }
+    &__box1{
+      border-bottom-right-radius: 0;
+      top: -2%;
+      @include media-breakpoint-up('m'){
+        top: -10%;
+      }
+    }
   }
   &__vethamquan{
     &__txt1{
